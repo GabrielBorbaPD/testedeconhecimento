@@ -1,0 +1,138 @@
+.content h3, legend{
+	color: #005bab;
+}
+
+/*Topo*/
+
+.top-bar .name h1{
+	color: #ffffff;
+    margin-left: 13px;
+}
+
+.top-bar.expanded .title-area {
+    background: #003d73;
+}
+
+.top-bar.expanded, .top-bar {
+    background: #005bab;
+}
+
+/*Barra Lateral*/
+
+.side-nav li a:not(.button), .side-nav li.heading, a, .content .related h4 {
+    color: #003d73;
+}
+
+/*Tabela Padrão*/
+
+table tr th, fieldset legend {
+    border-bottom: 2px solid #005bab;
+}
+
+table tr th, table tr td, .vertical-table th {
+    color: #5d5d5d;
+}
+
+.tabela-padrao{
+    box-shadow: 3px 3px 10px 2px #00000022;
+}
+
+.tabela-padrao:hover{
+    box-shadow: 3px 9px 15px 5px #00000022;
+    transition: 0.3s;
+}
+
+/*Tabela Alternativa - Cards*/
+
+.cards {
+    width: 20%!important;
+    float: left;
+    box-shadow: 3px 3px 10px 2px #00000022;
+    margin: 10px!important;
+}
+
+.cards:hover {
+    box-shadow: 3px 9px 15px 5px #00000022;
+    transition: 0.3s;
+}
+
+ul.pagination {
+    padding-top: 40px;
+}
+
+table thead tr td{
+	color: #003d73;
+	border-bottom: #005bab; 
+}
+
+/*Ambas Tabelas*/
+
+.actions{
+    font-weight: 700;
+}
+
+/*Botões pra trocar tipo de tabela*/
+
+.fa {
+	float: right;
+	margin: 0 0 20px 10px;
+}
+
+/*Botão*/
+
+.form button {
+    background: #003d73;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 7px #00000022;
+}
+
+.form button:hover, .form button:focus {
+	background: #005bab;
+    box-shadow: 0px 9px 20px 7px #00000022;
+    transition: 0.3s;
+}
+
+/*Home*/
+
+.chamada-home{
+	text-align: center;
+}
+
+.chamada-home h1{
+	margin-top: 40px;
+	font-size: 80px;
+	color: #005bab;
+}
+
+.chamada-home h1{
+	color: #003d73;
+}
+
+.texto-home{
+	text-align: center;
+	color: #003d73;
+}
+
+
+.aviso-home {
+	background: #f7fbc4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.aviso-home .fa {
+    float: initial;
+    padding: 20px;
+    color: #005bab;
+    text-align: center;
+    display: grid;
+    margin-bottom: 0px;
+}
+
+.aviso-home p{
+    padding: 10px;
+    color: #003d73;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
